@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Assets/Style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
 
@@ -16,7 +16,7 @@
   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html">
-        <img src="./Images/Logo.png" width="450px" height="100" alt="Joe Mengis">
+        <img src="./Assets/Images/Logo.png" width="200px" height="50" alt="Joe Mengis">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,16 +30,32 @@
       </div>
     </nav>
 
-    <div class="card" style="width:auto; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px;">
+    <div class="flex-container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="card portfoliocard" style="width: 18rem;">
+            <img class="card-img-top" src="./Assets/Images/joe1.jpg" alt="Joe Hambone" height="300" width="300">
+            <div class="card-body">
+              <h5 class="card-title">Live Videos</h5>
+              <p class="card-text">Check out some live footage of Joe in action!</p>
+              <a href="https://www.joemengismusic.com/tvperformances" target="_blank" class="btn btn-primary">Watch here</a>
+            </div>
+          </div> 
+        </div>
       
-      <div class="card-body">
-        
-        <h1 class="h1">Portfolio</h1>
-        <p class="card-text"> 
-        </p>
-        
+        <div class="col-md-6 col-sm-12">
+          <div class="card portfoliocard" style="width: 18rem;">
+            <img class="card-img-top" src="./Assets/Images/joe2.jpg" alt="Malibu Joe" height="300" width="300">
+              <div class="card-body">
+                <h5 class="card-title">Recordings</h5>
+                <p class="card-text">Listen to some albums that Joe has recorded drums on.</p>
+                <a href="http://www.joemengismusic.com/recordings-1" target="_blank" class="btn btn-primary">Listen here</a>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
+
 
      
 
