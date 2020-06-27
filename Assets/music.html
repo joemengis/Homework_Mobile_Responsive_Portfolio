@@ -6,17 +6,16 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./Assets/Style.css">
+    <link rel="stylesheet" href="../Assets/Style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://use.typekit.net/dzy1opj.css">
 
 
-
-    <title>Joe Mengis</title>
+    <title>Music | Joseph F. Mengis</title>
   </head>
-  <body class="bodybackground" id="header-styling">   
+  <body class="bodybackground">
+  
     <nav class="navbar navbar-expand-lg navbar-dark navbarwidth" id="header-styling">
       <h2 id="header-styling">Joseph F. Mengis</h2>
       <button class="navbar-toggler navbutton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,24 +23,41 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="./Assets/portfolio.html">Dev Portfolio</a>
-          <a class="nav-item nav-link" href="./Assets/music.html">Music</a>
-          <a class="nav-item nav-link" href="./Assets/contact.html">Contact</a>
+          <a class="nav-item nav-link" href="./index.html">About Me </a>
+          <a class="nav-item nav-link" href="./portfolio.html">Dev Portfolio</a>
+          <a class="nav-item nav-link active" href="./portfolio.html">Music<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
     <div class="flex-container">
-      <div class="card aboutmecard">
-        <div class="card-body">
-          <h1 class="aboutme card-title">About Me</h1>
-            <p class="card-text aboutmetext"> <img src= "./Assets/Images/JMM Profile Pick.jpg" alt="Joe Rocking" height="250" width="auto" style="float:left; margin-right: 20px; padding-top: 1px; padding-bottom: 0;"> 
-              I am an experienced Musician with a demonstrated history of working in the music industry. As a drummer, I have been touring, recording, and writing with major label artists for over 20 years. I am currently a member of the band Eels and works and tours with them. I also have a lesson studio in Portland, Or where I teach privately and work around 5-10 students at any given time. I am currently becoming a Junior Software Engineer and my current goal is to get a job as a Web Developer. 
-            </p>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="card portfoliocard" style="width: 18rem;">
+            <img class="card-img-top" src="./Images/joe1.jpg" alt="Joe Hambone" height="200" width="auto">
+            <div class="card-body">
+              <h5 class="card-title">Live Videos</h5>
+              <p class="card-text-body">Check out some live footage of Joe in action!</p>
+              <a href="https://www.joemengismusic.com/tvperformances" target="_blank" class="btn btn-primary btn-nue">Watch here</a>
+            </div>
+          </div> 
+        </div>
+      
+        <div class="col-md-6 col-sm-12">
+          <div class="card portfoliocard" style="width: 18rem;">
+            <img class="card-img-top" src="./Images/joe2.jpg" alt="Malibu Joe" height="200" width="auto">
+              <div class="card-body">
+                <h5 class="card-title">Recordings</h5>
+                <p class="card-text-body">Listen to some albums that Joe has recorded drums on.</p>
+                <a href="http://www.joemengismusic.com/recordings-1" target="_blank" class="btn btn-primary btn-nue">Listen here</a>
+              </div>
+          </div>
         </div>
       </div>
     </div>
+
+
      
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

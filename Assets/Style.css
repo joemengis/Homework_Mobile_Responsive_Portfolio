@@ -2,7 +2,8 @@
     height: 100%;
     min-height: 100vh;
     width: 100%;
-    background-image: url(../Assets/Images/DeKooning-Black-and-White.jpg);
+    background-color: rgb(16, 14, 15);
+    /* background-image: url(../Assets/Images/DeKooning-Black-and-White.jpg); */
     background-position: center;
     background-size: 1280px
     
@@ -14,26 +15,76 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-
+ #header-styling{
+    background-color: rgb(16, 14, 15);
+    color:rgb(170, 30, 0);
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 250;
+    font-style: normal;
+ }
+.navbutton {
+    border-color: rgb(168, 168, 168);
+}
+.contact-links{
+    color: white;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 200;
+    font-size: 1.75ch;
+    font-style: normal;
+}
+.contact-links:hover {
+    color: rgb(170, 30, 0);
+    text-decoration: none;
+    
+}
 .aboutmebold {
     color:black;
-    font-family: 'Oswald', sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+.card-title {
+    color:rgb(168, 168, 168);
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contact-title-center {
+    color:rgb(170, 30, 0);
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+.contact-body-text {
+    color:rgb(168, 168, 168);
+    font-size: 1.75ch;
+    font-family: ktiv-grotesk, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
 }
 
 .aboutmetext {
-    color:black;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 200;
+    color:rgb(168, 168, 168);
+    font-size: small;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .aboutmecard {
+    background-color: rgb(16, 14, 15);
     width:auto; 
     margin-left: 20px; 
-    margin-right: 15px; 
+    margin-right: 20px; 
     margin-top: 15px; 
     margin-bottom: 15px;
-    min-width: 450px;
+    min-width: 277px;
     float:left;
+    border-radius: .25ch;
 }
 
 .aboutmecardphoto {
@@ -42,12 +93,33 @@
 }
 
 .portfoliocard {
+    background-color: rgb(16, 14, 15) ;
     width:auto; 
     margin-left: 20px; 
-    margin-right: 15px; 
+    margin-right: 20px; 
     margin-top: 15px; 
     margin-bottom: 15px;
-    min-width: 450px;
+    min-width: 277px;
     float: left;
+    border-radius: .25ch;
     
 }
+
+.card-text-body {
+    color:rgb(168, 168, 168);
+    font-size: small;
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-nue {
+    background-color: rgb(16, 14, 15);
+    color: rgb(170, 30, 0);
+    border-color: rgb(168, 168, 168);
+}
+ .btn-nue:hover {
+    background-color: rgb(168, 168, 168);
+    color: rgb(170, 30, 0);
+    border-color: rgb(168, 168, 168);
+ }
