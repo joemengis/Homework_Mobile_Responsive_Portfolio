@@ -44,7 +44,9 @@
     font-family: Helvetica, sans-serif;
     font-size: large;
 }
-
+ #page-titles {
+     margin-left: 20px;
+ }
 .card-title {
     color:rgb(168, 168, 168);
     font-family: aktiv-grotesk, sans-serif;
@@ -53,7 +55,7 @@
 }
 
 .contact-title-center {
-    color:rgb(170, 30, 0);
+    color:rgb(168, 168, 168);
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
