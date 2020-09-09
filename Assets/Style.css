@@ -16,12 +16,14 @@
     flex-wrap: wrap;
 }
  #header-styling{
+    /* background-image: url(../Assets/Images/Screen\ Shot\ 2020-06-27\ at\ 11.22.14\ PM.png); */
+    /* margin-left: 12px; */
     background-color: rgb(16, 14, 15);
-    color:rgb(168, 168, 168);
-    font-family: Helvetica, sans-serif;
-    font-weight: 250;
+    color:rgb(170, 30, 0);
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 200;
     font-style: normal;
-    text-shadow: 1px 1px rgb(170, 30, 0);
+    /* text-shadow: 1px 1px rgb(170, 30, 0); */
     /* text-transform: capitalize; */
  }
 .navbutton {
@@ -82,7 +84,7 @@
 .aboutmecard {
     background-color: rgb(16, 14, 15);
     width:auto; 
-    margin-left: 20px; 
+    /* margin-left: 20px;  */
     margin-right: 20px; 
     margin-top: 15px; 
     margin-bottom: 15px;
